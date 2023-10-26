@@ -1,0 +1,8 @@
+.iconWrapper {
+  height: 1.67rem;
+
+  svg {
+    width: 1.67rem;
+    height: 1.67rem;
+  }
+}

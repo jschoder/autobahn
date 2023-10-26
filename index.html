@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>...</title>
+    <style>
+      .app-load {
+        display: flex;
+        width: 100wh;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      .app-load > div {
+        width: 48px;
+        height: 48px;
+        border: 5px solid #CCC;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        animation: appLoadPulse 1s linear infinite;
+      }
+      .app-load > div:after {
+        content: '';
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        border: 5px solid #CCC;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        animation: appLoadUp 1s linear infinite;
+      }
+      @keyframes appLoadUp {
+        0% { transform: translate(-50%, -50%) scale(0) }
+        60% , 100% { transform: translate(-50%, -50%)  scale(1)}
+      }
+      @keyframes appLoadPulse {
+        0% , 60% , 100%{ transform:  scale(1) }
+        80% { transform:  scale(1.2)}
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="app-load"><div></div></div>
+    </div>
+    <link rel="stylesheet" href="/index.css" />
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

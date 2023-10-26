@@ -1,0 +1,8 @@
+.externalLink {
+  svg {
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+    vertical-align: 0.4em;
+  }
+}

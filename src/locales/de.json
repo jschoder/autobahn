@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Autobahn",
+    "footer": {
+      "publicDomain": "Public Domain",
+      "sourceCode": "Quelltext"
+    }
+  },
+  "chargingStations": {
+    "emptyResult": "Es wurden keine Ladestationen für die gewählte Autobahn gefunden.",
+    "loadFailed": "Die Ladestationen konnten nicht geladen werden.",
+    "title": "Ladestationen"
+  },
+  "common": {
+    "km": "km"
+  },
+  "form": {
+    "empty": "Bitte wähle deinen Standort und die gewünschte Autobahn auf dem Suchformular aus.",
+    "location": {
+      "title": "Standort",
+      "browser": {
+        "radio": "Aktueller Standort"
+      },
+      "custom": {
+        "radio": "Benutzerdefiniert"
+      }
+    },
+    "road": {
+      "title": "Autobahn"
+    }
+  },
+  "lorryParking": {
+    "emptyResult": "Es wurden keine LKW-Parkplätze für die gewählte Autobahn gefunden.",
+    "loadFailed": "Die LKW-Parkplätze konnten nicht geladen werden.",
+    "title": "LKW-Parkplätze"
+  },
+  "problems": {
+    "emptyResult": "Es wurden keine Probleme für die gewählte Autobahn gefunden.",
+    "loadFailed": "Die Liste der Probleme konnte nicht geladen werden.",
+    "title": "Mögliche Probleme",
+    "tooltips": {
+      "closure": "Straßensperre",
+      "closureEntryExit": "Gesperrte Einfahrt/Ausfahrt",
+      "other": "Anderes Problem",
+      "roadworks": "Straßenbauarbeiten",
+      "shortTermRoadworks": "Kurzfristige Straßenbauarbeiten",
+      "warning": "Warnung"
+    }
+  },
+  "roads": {
+    "loadFailed": "Die Autobahnen konnten nicht geladen werden. Bitte versuche es später noch einmal."
+  }
+}
